@@ -142,7 +142,7 @@ class JupyterApplication implements IApplication, IStatefulService {
         });
 
         this._applicationState = {
-            checkForUpdatesAutomatically: true,
+            checkForUpdatesAutomatically: false,
             pythonPath: '',
         };
 
